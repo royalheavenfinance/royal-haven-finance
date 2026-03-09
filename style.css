@@ -31,12 +31,12 @@ header{
 }
 
 .header-text h1{
-    font-size:32px;
+    font-size:30px;
 }
 
 .tagline{
     color:gold;
-    font-size:10px;
+    font-size:11px;
 }
 
 /* Navigation */
