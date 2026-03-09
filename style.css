@@ -26,7 +26,7 @@ header{
 }
 
 .logo{
-    width:75px;
+    width:70px;
     height:auto;
 }
 
@@ -36,7 +36,7 @@ header{
 
 .tagline{
     color:gold;
-    font-size:14px;
+    font-size:11px;
 }
 
 /* Navigation */
