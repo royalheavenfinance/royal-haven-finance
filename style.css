@@ -25,15 +25,8 @@ header{
     text-align:center;
 }
 
-/* Logo container */
-.logo-container{
-    width:100%;       /* stretches across the header */
-    display:flex;
-    justify-content:center;
-}
-
 .logo{
-    width:61px;
+    width:60px;
     height:auto;
 }
 
