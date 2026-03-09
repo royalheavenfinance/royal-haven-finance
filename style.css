@@ -186,8 +186,14 @@ form button{
 footer{
     background:black;
     text-align:center;
-    padding:20px;
-    margin-top:40px;
+    padding:20px;       /* space inside footer */
+    margin-top:40px;    /* space above footer */
+}
+
+footer p{
+    font-size:12px;     /* small text */
+    color:#ccc;         /* subtle grey */
+    margin:0;
 }
 
 /* Responsive */
