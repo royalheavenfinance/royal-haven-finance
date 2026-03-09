@@ -18,15 +18,15 @@ header{
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:15px;
-    padding:20px;
+    gap:20px;
+    padding:25px;
     background:black;
     flex-wrap:wrap;
     text-align:center;
 }
 
 .logo{
-    width:60px;
+    width:70px;
     height:auto;
 }
 
