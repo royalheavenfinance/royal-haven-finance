@@ -26,12 +26,12 @@ header{
 }
 
 .logo{
-    width:auto;
+    width:60;
     height:auto;
 }
 
 .header-text h1{
-    font-size:30px;
+    font-size:34px;
 }
 
 .tagline{
