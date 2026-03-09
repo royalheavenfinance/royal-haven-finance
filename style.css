@@ -6,8 +6,12 @@ color:white;
 }
 
 header{
+display:flex;
+align-items:centre;
+justify-content:centre;
 text-align:center;
-padding:40px;
+gap:15px;
+padding:20px;
 background:black;
 }
 
