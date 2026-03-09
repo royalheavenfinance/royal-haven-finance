@@ -1,0 +1,119 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0a0a0a;
+color:white;
+}
+
+header{
+text-align:center;
+padding:40px;
+background:black;
+}
+
+.logo{
+width:120px;
+}
+
+.tagline{
+color:gold;
+}
+
+nav{
+background:#111;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:gold;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.btn{
+background:gold;
+color:black;
+padding:12px 20px;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+}
+
+section{
+padding:50px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+padding:20px;
+width:250px;
+border-radius:10px;
+border:1px solid gold;
+}
+
+.calculator input{
+display:block;
+margin:10px auto;
+padding:10px;
+width:250px;
+}
+
+button{
+padding:12px 20px;
+background:gold;
+border:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+#result{
+margin-top:20px;
+font-size:18px;
+}
+
+form input, form select{
+display:block;
+margin:10px auto;
+padding:10px;
+width:250px;
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:15px;
+padding:12px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+.cards{
+flex-direction:column;
+align-items:center;
+}
+
+}
