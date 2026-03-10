@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Haven Finance</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo-container">
+    <img src="file_000000008db071faa198cf7abc5d2e9f.png" class="logo" alt="Royal Haven Finance Logo">
+  </div>
+  <div class="header-text">
+    <h1>Royal Haven Finance</h1>
+    <p class="tagline">Turning Financial Goals Into Reality</p>
+  </div>
+</header>
+
+<!-- Navigation -->
+<nav>
+  <a href="#about">About Us</a>
+  <a href="#services">Services</a>
+  <a href="#emi">EMI Calculator</a>
+  <a href="#apply">Apply Loan</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Fast & Reliable Loan Solutions</h2>
+  <p>Get personal, business, or emergency loans with a simple process.</p>
+  <a href="https://wa.me/919365561880" class="btn">Apply on WhatsApp</a>
+</section>
+
+<!-- About Us -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Royal Haven Finance is a trusted financial partner committed to helping individuals and businesses achieve their goals 
+    with fast, secure, and hassle-free loan solutions. Our mission is to simplify access to finance, empowering our clients 
+    to realize their dreams and strengthen their future.
+  </p>
+</section>
+
+<!-- Why Choose Us -->
+<section id="why">
+  <h2>Why Choose Us?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Fast Approval</h3>
+      <p>Get your loan approved quickly with minimal paperwork.</p>
+    </div>
+    <div class="card">
+      <h3>Trusted & Secure</h3>
+      <p>Your privacy and security are our top priorities.</p>
+    </div>
+    <div class="card">
+      <h3>Expert Guidance</h3>
+      <p>Our finance specialists guide you at every step.</p>
+    </div>
+    <div class="card">
+      <h3>Transparent Terms</h3>
+      <p>No hidden charges. Complete clarity for your loans.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <h2>Our Loan Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Personal Loan</h3>
+      <p>Flexible personal loans with quick approval.</p>
+    </div>
+    <div class="card">
+      <h3>Business Loan</h3>
+      <p>Funding to grow your business and expand operations.</p>
+    </div>
+    <div class="card">
+      <h3>Emergency Loan</h3>
+      <p>Instant financial help for urgent situations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Loan Process -->
+<section id="process">
+  <h2>Quick Loan Process</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>1. Apply Online</h3>
+      <p>Fill out a simple online application form.</p>
+    </div>
+    <div class="card">
+      <h3>2. Upload Documents</h3>
+      <p>Submit your documents securely and easily.</p>
+    </div>
+    <div class="card">
+      <h3>3. Get Approval</h3>
+      <p>Our team reviews and approves your loan quickly.</p>
+    </div>
+    <div class="card">
+      <h3>4. Receive Funds</h3>
+      <p>Loan amount is transferred to your account instantly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EMI Calculator -->
+<section id="emi">
+  <h2>EMI Calculator</h2>
+  <div class="calculator">
+    <input type="number" id="amount" placeholder="Loan Amount">
+    <input type="number" id="rate" placeholder="Interest Rate (%)">
+    <input type="number" id="months" placeholder="Loan Tenure (Months)">
+    <button onclick="calculateEMI()">Calculate EMI</button>
+    <div id="result"></div>
+  </div>
+</section>
+
+<!-- Apply For Loan -->
+<section id="apply">
+  <h2>Apply For Loan</h2>
+  <form id="loanForm">
+    <input type="text" placeholder="Full Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="text" placeholder="City" required>
+    <input type="number" placeholder="Loan Amount" required>
+    <select required>
+      <option value="">Select Loan Type</option>
+      <option>Personal Loan</option>
+      <option>Business Loan</option>
+      <option>Emergency Loan</option>
+    </select>
+    <input type="file">
+    <button type="submit">Submit Application</button>
+  </form>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="cards">
+    <div class="card">
+      <p>"Royal Haven Finance helped me get a personal loan within 24 hours. Highly recommended!"</p>
+      <h4>- Rahul S.</h4>
+    </div>
+    <div class="card">
+      <p>"The business loan process was very easy and fast. Excellent support team."</p>
+      <h4>- Priya M.</h4>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>How fast is loan approval?</h3>
+      <p>Personal and emergency loans are approved within 24–48 hours.</p>
+    </div>
+    <div class="card">
+      <h3>What documents are required?</h3>
+      <p>Aadhaar, PAN, and proof of income are usually sufficient.</p>
+    </div>
+    <div class="card">
+      <h3>Are there hidden charges?</h3>
+      <p>No. We maintain full transparency in all loans.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:royalhavenfinace@gmail.com">royalhavenfinace@gmail.com</a></p>
+</section>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/919365561880" target="_blank" class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Royal Haven Finance. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
